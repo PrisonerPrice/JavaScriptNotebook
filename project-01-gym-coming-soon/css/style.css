@@ -1,0 +1,32 @@
+body{
+    background: url("../images/gym-bg.jpg")
+        no-repeat center center fixed;
+    background-size: cover;
+    text-align: center
+}
+
+div{
+    margin-top: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 250px;
+    background-color:darkslateblue;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    width: 70%;
+}
+
+button{
+    background: orange;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    width: 45%;
+    font-size: 1.3em
+}
+
+i{
+    font-size: 3em
+}
