@@ -1,0 +1,82 @@
+.navbar-light .navbar-brand{
+	color: black;
+}
+
+header {
+  position: relative;
+  background-color: black;
+  height: 100vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+html{
+	height: 100%;
+}
+
+.first{
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	padding-top: 18%;
+	padding-bottom: 25%;
+	z-index: 2;
+}
+
+.first-row{
+	text-align: center;
+	padding-top: 10%;
+}
+
+.other-row{
+	font-size: 1.3em;
+	padding-top: 5%;
+}
+
+.final-row{
+	height: 200px;
+}
+
+.whitetext{
+	color: white;
+}
+
+.btn{
+	margin-top: 30px;
+	font-size: 1.3em;
+	border-radius: 8px;
+	color: white;
+}
