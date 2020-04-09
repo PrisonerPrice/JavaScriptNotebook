@@ -1,0 +1,44 @@
+.navBarCenter{
+	width: 100%;
+	text-align: center;
+	padding: 0 0;
+	font-family: 'Permanent Marker', cursive;
+}
+
+#carouselExampleCaptions img{
+	height: 500px;
+	background-color: whitesmoke;
+	object-fit: cover;
+}
+
+#carouselExampleCaptions{
+	padding-bottom: 20px;
+}
+
+.content-padding{
+	padding-top: 40px;
+}
+
+
+.row h1{
+	font-family: 'Permanent Marker', cursive;
+}
+
+.row p{
+	font-size: 1.2em;
+	font-family: 'Permanent Marker', cursive;
+}
+
+.row img{
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+footer{
+	padding-top: 100px;
+	text-align: right;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 1.2em;
+}
