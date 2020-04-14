@@ -4,7 +4,12 @@ var apple = "banana";
 
 var array = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
-var myObject = {id: 3324, length: 7, name: "Austin"};
+var myObject = {id: 3324, 
+				length: 7, 
+				name: "Austin",
+			   	print: function() {
+				   return "id is: " + this.id + "; length is: " + this.length + "; name is: " + this.name;
+			  	}};
 
 var today = null;
 
@@ -32,8 +37,24 @@ switch (new Date().getDay()) {
 		break;
 }
 
-for(var i = 0; i < array.length; i++) {
-	today += " is beautiful!" + "<br>";
+//for(var i = 0; i < array.length; i++) {
+//	today += " is beautiful!" + "<br>";
+//}
+//
+//var j = 0;
+//do {
+//	today += j;
+//	j++;
+//} while (j <= 9);
+//
+//today = fun1(1, 2, 3);
+
+document.getElementById("test").innerHTML = myObject.print();
+
+function fun1(num1, num2, num3) {
+	return num1 * num2 * num3;
 }
 
-document.getElementById("test").innerHTML = today;
+function showDate() {
+	document.getElementById("test2").innerHTML = today;
+}
